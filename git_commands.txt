@@ -1,0 +1,25 @@
+$ git checkout <file>                      //Recovery
+
+$ git clone https://github.com/p10hl0/Demo //Clone Repository Into A New Directory
+
+$ git add git_commands.txt                 //Add File(s) To Index
+
+$ git status                               //Check Status Of Working Tree
+
+$ git init                                 //Initialize Local Git Repository
+
+$ git commit                               //Commit Changes In Index
+
+$ git push                                 //Push To Remote Repository
+
+$ git pull                                 //Pull Latest From Remote Repository
+
+
+
+$ uname -a
+Linux desktop 4.15.0-48-generic #51~16.04.1-Ubuntu SMP Fri Apr 5 12:01:12 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+$git version
+    git version 2.7.4
+
+
