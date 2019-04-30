@@ -8,7 +8,7 @@ $ git status                               //Check Status Of Working Tree
 
 $ git init                                 //Initialize Local Git Repository
 
-$ git commit                               //Commit Changes In Index
+$ git commit -a                            //Commit Changes In Index
 
 $ git push                                 //Push To Remote Repository
 
