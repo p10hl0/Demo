@@ -1,0 +1,6 @@
+// vs code do not saving to git ??
+
+$ sudo apt install openjdk-8-jdk-headless
+$ javac -version
+    javac 1.8.0_191
+
