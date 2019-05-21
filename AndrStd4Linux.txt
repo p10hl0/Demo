@@ -6,3 +6,25 @@
 # sudo apt-get install openjdk-8-jdk
 # sudo apt-get install openjdk-8-jre
 # sudo update-alternatives  --config java
+# echo $JAVA_HOME
+# sudo add-apt-repository ppa:webupd8team/java
+# flatpak update (update Anroid Studio)
+# sudo apt install adb
+# lsusb (Bus 003 Device 021) 0bb4:0c03 HTC [1004:6300 LG]
+# lsusb -D /dev/bus/usb/003/021
+# adb devices
+# sudo adb kill-server
+# sudo adb start-server
+~/.android/adb_usb.ini 0x0bb4 or 0x1004 or 0bb4 or 1004
+# udevadm control --reload (test , info , monitor)
+# lsblk (for usb storages)
+# sudo apt-get install android-tools-adb
+# sudo killall adb
+# sudo service udev restart
+/etc/udev/rules.d/51android.rules <---
+SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", MODE="0666", GROUP="plugdev"
+# sudo chmod a+r <51android.rules>
+# sudo apt-get install android-tools-fastboot
+# fastboot -i 0x0bb4 devices
+# sudo udevadm control --reload-rules
+# sudo udevadm monitor -p
