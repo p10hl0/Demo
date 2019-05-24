@@ -1,0 +1,2 @@
+# chmod a+x genymotion-3.0.2-linux_x64.bin 
+# ./genymotion-3.0.2-linux_x64.bin
