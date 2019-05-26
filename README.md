@@ -1,4 +1,4 @@
-??? genymotion open GApps are not available for Android 4.2.2 /
+??? genymotion open GApps are not available for Android 4.2.2 //
 5.0 unfortunately , Google Play service has stopped
 
 $ uname -a
