@@ -1,5 +1,11 @@
 ??? genymotion open GApps are not available for Android 4.2.2 //
-5.0 unfortunately , Google Play service has stopped
+??? 5.0 unfortunately , Google Play service has stopped
+
+!!! for Android 5.0.x, Android 4.4.x, Android 4.3.x, Android 4.2.x, Android 4.1.x, Android 4.0.x, Android 2.3.3
+
+!!! https://inthecheesefactory.com/blog/how-to-install-google-services-on-genymotion/en
+
+!!! https://www.androidfilehost.com/?fid=23060877490000128 (for 4.2.x)
 
 $ uname -a
 
